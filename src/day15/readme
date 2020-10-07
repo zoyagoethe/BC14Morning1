@@ -1,0 +1,7 @@
+1. git add filename.java
+2. git commit -m "was haben wir gemacht"
+3. git status
+4. git push origin master
+
+commit - только для раюотающих проектов
+
