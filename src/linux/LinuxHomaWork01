@@ -1,0 +1,27 @@
+Loading...
+
+Welcome to JS/Linux (i586)
+
+Use 'vflogin username' to connect to your account.
+You can create a new account at https://vfsync.org/signup .
+Use 'export_file filename' to export a file to your computer.
+Imported files are written to the home directory.
+
+localhost:~# mkdir /home/animals
+localhost:~# mkdir /home/animals/dogs
+localhost:~# mkdir /home/animals/cats
+localhost:~# mkdir /home/animals/fish
+localhost:~# touch /home/animals/dogs/pluto.txt
+localhost:~# touch /home/animals/cats/garfield.txt
+localhost:~# touch /home/animals/fish/nemo.txt
+localhost:~# touch /tmp/adam.txt
+localhost:~# mkdir /home/humans
+localhost:~# cp /tmp/adam.txt /home/humans
+localhost:~# touch /tmp/evA.txt
+localhost:~# mv /tmp/evA.txt /opt/eve.txt
+localhost:~# mv /opt/eve.txt home/humans
+mv: can't rename '/opt/eve.txt': No such file or directory
+localhost:~# mv /opt/eve.txt /home/humans
+localhost:~# cd /home/humans
+localhost:/home/humans# ls
+adam.txt  eve.txt
