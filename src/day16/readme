@@ -1,4 +1,4 @@
-    create .gitignore
+git status    create .gitignore
     git add названиеФайла.java
     git commit -m "что мы сделали"
     git status
