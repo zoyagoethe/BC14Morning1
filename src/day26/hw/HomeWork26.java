@@ -56,12 +56,11 @@ public class HomeWork26 {
 
     private static int countHi(String input) {
         int count = 0;
-        for (int i = 0; i < input.length(); i++) {
+        for (int i = 0; i < input.length() - 1; i++) {
             if (input.charAt(i) == 'h' && input.charAt(i + 1) == 'i') {
                 count++;
             }
         }
-
         return count;
     }
 }
