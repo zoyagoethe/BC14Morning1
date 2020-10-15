@@ -1,0 +1,38 @@
+body {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    color: brown;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+h2 {
+    color: chocolate;
+}
+
+h3 {
+    color: coral;
+}
+
+img {
+    border-radius: 50px;
+    width: 300;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-color: coral;
+    border-width: 5px;
+    border-style: groove;
+}
+
+article {
+    margin: 10px;
+    padding: 5px;
+    font-style: italic;
+}
+
+.text {
+    text-align: justify;
+}
