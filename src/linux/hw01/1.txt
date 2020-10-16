@@ -1,0 +1,10 @@
+Start
+Fri Oct 16 21:27:07 UTC 2020
+drwxr-xr-x    5 zoya     zoya           237 Sep 28 12:26 root
+drwxr-xr-x    4 zoya     zoya           140 Oct 16 21:24 run
+drwxr-xr-x    2 zoya     zoya          2363 Aug 17 21:14 sbin
+drwxr-xr-x    2 zoya     zoya            37 May 29 16:20 srv
+dr-xr-xr-x   12 zoya     zoya             0 Oct 16 21:24 sys
+drwxrwxrwt    2 zoya     zoya            37 Sep 10 17:39 tmp
+drwxr-xr-x   10 zoya     zoya           229 Jun 24 15:46 usr
+drwxr-xr-x   16 zoya     zoya           348 Aug 27 13:00 var
