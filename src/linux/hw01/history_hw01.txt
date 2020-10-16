@@ -15,3 +15,5 @@
   14 export_file /opt/task/1.txt
   15 history
   16 history > /tmp/history.md
+  17 export_file /tmp/history.md
+  18 history > /tmp/history.txt
