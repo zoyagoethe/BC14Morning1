@@ -8,3 +8,4 @@ dr-xr-xr-x   12 zoya     zoya             0 Oct 16 21:24 sys
 drwxrwxrwt    2 zoya     zoya            37 Sep 10 17:39 tmp
 drwxr-xr-x   10 zoya     zoya           229 Jun 24 15:46 usr
 drwxr-xr-x   16 zoya     zoya           348 Aug 27 13:00 var
+history
