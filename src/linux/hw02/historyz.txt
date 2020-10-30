@@ -1,0 +1,9 @@
+   0 date >> /tmp/linuxhw02.txt
+   1 df -h | grep /dev/root >> /tmp/linuxhw02.txt 
+   2 cat /proc/cpuinfo | grep vendor_id >> /tmp/linuxhw02.txt 
+   3 history | tail -5 >> /tmp/linuxhw02.txt 
+   4 vi /tmp/linuxhw02.txt 
+   5 ps -ef | wc -l >> /tmp/linuxhw02.txt 
+   6 cat /tmp/linuxhw02.txt 
+   7 export_file /tmp/linuxhw02.txt 
+   8 history >> /tmp/historyz.txt

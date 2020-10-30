@@ -1,0 +1,8 @@
+Fri Oct 30 22:33:14 UTC 2020
+/dev/root                 4.9G      1.6G      3.2G  33% /
+AuthenticX86
+   0 date >> /tmp/linuxhw02.txt
+   1 df -h | grep /dev/root >> /tmp/linuxhw02.txt 
+   2 cat /proc/cpuinfo | grep vendor_id >> /tmp/linuxhw02.txt 
+   3 history | tail -5 >> /tmp/linuxhw02.txt 
+32
