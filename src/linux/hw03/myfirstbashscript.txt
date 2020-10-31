@@ -1,0 +1,8 @@
+#!/bin/bash
+USER=ZOYA
+date
+echo "Hello $USER!"
+pwd
+ps -ef | wc -l
+ps -ef | grep bioset | grep -v grep | wc -l
+ls -la /etc/passwd | awk {'print $1'}

@@ -1,0 +1,9 @@
+   0 touch /tmp/myfirstbushscript.sh
+   1 chmod 700 /tmp/myfirstbushscript.sh 
+   2 ls -la /tmp/myfirstbushscript.sh 
+   3 mv /tmp/myfirstbushscript.sh /tmp/myfirstbashscript.sh
+   4 ls -l /tmp/myfirstbashscript.sh 
+   5 vi /tmp/myfirstbashscript.sh 
+   6 /tmp/myfirstbashscript.sh 
+   7 export_file /tmp/myfirstbashscript.sh 
+   8 history >> /tmp/historyz.txt
