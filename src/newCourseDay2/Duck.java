@@ -1,4 +1,4 @@
-package newCourseDay2.lesson2;
+package newCourseDay2;
 
 public class Duck {
     String breed;
