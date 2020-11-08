@@ -1,4 +1,6 @@
-package newCourseDay2.lesson2;
+package newCourseDay2;
+
+
 
 public class DuckTest {
     public static void main(String[] args) {
