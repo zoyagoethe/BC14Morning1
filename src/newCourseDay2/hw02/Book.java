@@ -11,19 +11,19 @@ public class Book {
     String language;
     int year;
 
-    public Book(){
+    public Book() {
 
     }
 
-    public Book(String bookTitle, String bookAuthor, String bookLanguage, int yearFirst){
+    public Book(String bookTitle, String bookAuthor, String bookLanguage, int yearFirst) {
         title = bookTitle;
         author = bookAuthor;
         language = bookLanguage;
         year = yearFirst;
-        displayInfo();
+        //displayInfo(); // жто для дебага
     }
 
-    public void displayInfo(){
+    public void displayInfo() {
         System.out.println("Title: " + title);
         System.out.println("Author: " + author);
         System.out.println("Language: " + language);
@@ -31,7 +31,8 @@ public class Book {
         System.out.println();
     }
 }
-class BookInfo{
+
+class BookInfo {
     public static void main(String[] args) {
         Book b1 = new Book();
         Book b2 = new Book();

@@ -19,7 +19,7 @@ public class greatestCommonDivisor {
         /*System.out.println(gcd(15, 75));
         System.out.println(gcd(11248, 63));
         System.out.println(gcd(267, 99));*/
-        System.out.println("Наибольший общий делитель: " + intScanner());
+        System.out.println("Greatest common divisor: " + intScanner());
 
     }
 
@@ -27,9 +27,9 @@ public class greatestCommonDivisor {
         Scanner input = new Scanner(System.in);
         int a;
         int b;
-        System.out.println("Введите целое число");
+        System.out.println("Enter a whole number");
         a = input.nextInt();
-        System.out.println("Введите ещё одно целое число");
+        System.out.println("Enter another whole number");
         b = input.nextInt();
         input.close();
         while (b != 0) {

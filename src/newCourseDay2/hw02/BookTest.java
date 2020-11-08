@@ -1,6 +1,6 @@
 package newCourseDay2.hw02;
 
-public class BookArray {
+public class BookTest {
     public static void main(String[] args) {
         Book b1 = new Book("War and Peace", "Leo Tolstoy", "Russian and French", 1865);
         Book b2 = new Book("Pride and Prejudice", "Jane Austen", "English", 1813);

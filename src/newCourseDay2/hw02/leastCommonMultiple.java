@@ -15,16 +15,16 @@ public class leastCommonMultiple {
         /*System.out.println(lcm(5, 10));// -> 10
         System.out.println(lcm(3, 5));// -> 15
         System.out.println(lcm(6, 10));// -> 30*/
-        System.out.println("Наименьшее общее кратное: " + intScanner());
+        System.out.println("Least common multiple: " + intScanner());
     }
 
     private static int intScanner() {
         Scanner input = new Scanner(System.in);
         int a;
         int b;
-        System.out.println("Введите целое число");
+        System.out.println("Enter a whole number");
         a = input.nextInt();
-        System.out.println("Введите ещё одно целое число");
+        System.out.println("Enter another whole number");
         b = input.nextInt();
         input.close();
         int gcd = gcd(a, b);
