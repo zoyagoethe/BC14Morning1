@@ -2,8 +2,6 @@ package newCourse2Day01.hw01;
 
 public class HomeWork01 {
 
-    public HomeWork01() {
-    }
 
     public static int nod(int a, int b) {
         if (b == 0) {
@@ -12,7 +10,7 @@ public class HomeWork01 {
         return nod(b, a % b);
     }
 
-    public static int squareRecursive(int n){
+    public static int squareRecursive(int n) {
         if (n == 1) {
             return 1;
         } else {
@@ -20,7 +18,7 @@ public class HomeWork01 {
         }
     }
 
-    public static String reverse(String str){
+    public static String reverse(String str) {
         char[] output = new char[str.length()];
         for (int i = 0; i < output.length; i++) {
             output[i] = str.charAt(str.length() - 1 - i);
@@ -28,7 +26,7 @@ public class HomeWork01 {
         return new String(output);
     }
 
-    static class HomeWork01Test{
+    static class HomeWork01Test {
         public static void main(String[] args) {
             System.out.println(nod(338, 4523));
             //System.out.println(squareRecursive(356));
