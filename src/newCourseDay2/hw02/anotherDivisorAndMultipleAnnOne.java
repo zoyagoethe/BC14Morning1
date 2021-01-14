@@ -2,7 +2,7 @@ package newCourseDay2.hw02;
 
 import java.util.Scanner;
 
-public class anotherDivisorAndMultiple {
+public class anotherDivisorAndMultipleAnna {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int number1;
